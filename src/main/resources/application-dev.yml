@@ -1,0 +1,5 @@
+project:
+  name: SimpleService
+  owner: yfz,mpp
+server:
+  port: 8088
