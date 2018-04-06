@@ -6,4 +6,5 @@
   |-/src/main/resources/public/ 前端代码
     |--css
     |--js
+    |-html
   |-src/main/java/com/simple/service/ 后端代码
