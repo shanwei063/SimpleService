@@ -1,0 +1,16 @@
+疑问点：
+1：枚举类 构造函数是私有的？如何使用？？
+
+2：解释以下语句：
+ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+HttpServletRequest request = attributes.getRequest();
+
+SpringApplication.run(SimpleServiceApplication.class, args);
+
+
+3： AOP @Aspect、@Pointcut
+	Handle @ControllerAdvice、@ExceptionHandler
+	@SpringBootApplication 找到官方说明
+
+4： private final static Logger logger = LoggerFactory.getLogger(Exception.class); 了解源码原理	
+
