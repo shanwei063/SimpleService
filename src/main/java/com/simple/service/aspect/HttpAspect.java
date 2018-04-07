@@ -17,7 +17,7 @@ public class HttpAspect {
 
     private final static Logger logger = LoggerFactory.getLogger(HttpAspect.class);
 
-    @Pointcut("execution(public * com.simple.service.controller.TestController.*(..))")
+    @Pointcut("execution(public * com.simple.service.controller..*.*(..))")
     public void common() {
     }
 
